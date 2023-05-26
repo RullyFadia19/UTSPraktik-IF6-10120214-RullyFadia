@@ -4,460 +4,519 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/Abu"
-        >
-
-
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFC0C0C0"
+        tools:context=".MainActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/banner"
-            android:layout_width="379dp"
-            android:layout_height="157dp"
-            android:layout_marginTop="16dp"
+            android:id="@+id/pdb"
+            android:layout_width="387dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/banner"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/ben"
-            android:layout_width="376dp"
-            android:layout_height="135dp"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="201dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bgr"
+            android:layout_width="385dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="4dp"
             android:background="@drawable/bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/banner"/>
-
+            app:layout_constraintTop_toBottomOf="@+id/pdb">
+            />
             <TextView
-                android:id="@+id/res"
-                android:layout_width="356dp"
-                android:layout_height="20dp"
-                android:layout_marginBottom="103dp"
+                android:id="@+id/tahap1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
                 android:text="Pelaksanaan PPDB Tahap 1 - 2023"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
-            <ImageView
-                android:layout_width="94dp"
-                android:layout_height="21dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="282dp"
-                android:layout_marginTop="12dp"
-                android:src="@drawable/detail"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="12dp"
-                android:layout_height="12dp"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/baseline_check_circle_24"
-                tools:layout_editor_absoluteX="23dp"
-                tools:layout_editor_absoluteY="48dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-            <TextView
-                android:layout_width="290dp"
-                android:layout_height="2dp"
-                android:layout_marginStart="34dp"
-                android:layout_marginTop="53dp"
-                android:background="#16A75C"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-
             <ImageView
-                android:layout_width="72dp"
-                android:layout_height="37dp"
+                android:layout_width="85dp"
+                android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/orang"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="74dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/detail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            </ImageView>
             <ImageView
-                android:layout_width="37dp"
-                android:layout_height="14dp"
+                android:layout_width="49dp"
+                android:layout_height="46dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="314dp"
-                android:layout_marginTop="48dp"
-                android:src="@drawable/bulat"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-            <TextView
-                android:id="@+id/sana"
-                android:layout_width="129dp"
-                android:layout_height="18dp"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="77dp"
-                android:text="Persiapan"
-                android:textColor="@color/black"
-                android:textSize="13dp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="25dp"
-                android:layout_height="2dp"
-                android:layout_marginStart="338dp"
-                android:layout_marginTop="53dp"
-                android:layout_marginBottom="80dp"
-                android:background="@color/abu"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/orang"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.776">
+            </ImageView>
             <TextView
-                android:id="@+id/sini"
-                android:layout_width="130dp"
-                android:layout_height="18dp"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="93dp"
-                android:text="17 mei - 05 juni 2023"
-                android:textColor="@color/black"
-                android:textSize="11dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" >
+                android:id="@+id/textView12"
+                android:layout_width="56dp"
+                android:layout_height="44dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/buku"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+            </TextView>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="258dp"
+                android:layout_height="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/garis"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="parent">
+            </ImageView>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="61dp"
+                android:layout_height="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/garisputih"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
             </TextView>
 
             <ImageView
-                android:layout_width="105dp"
-                android:layout_height="46dp"
+                android:id="@+id/imageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="271dp"
-                android:layout_marginTop="77dp"
-                android:src="@drawable/buku"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/ceklis"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent">
+            </ImageView>
+
+            <TextView
+                android:layout_width="18dp"
+                android:layout_height="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bulat"
+                app:layout_constraintBottom_toTopOf="@+id/textView12"
+                app:layout_constraintStart_toEndOf="@+id/imageView3">
+            </TextView>
+
+            <TextView
+                android:id="@+id/siap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginBottom="20dp"
+                android:text="Persiapan"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/iap"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/iap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginBottom="32dp"
+                android:text="17 Mei - 05 Juni 2023"
+                android:textColor="@color/abu"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/ban"
-            android:layout_width="382dp"
-            android:layout_height="128dp"
-            android:layout_marginStart="29dp"
-            android:layout_marginTop="348dp"
+            android:id="@+id/bre2"
+            android:layout_width="386dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
             android:background="@drawable/bg"
+            app:layout_constraintBottom_toTopOf="@+id/ketiga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.75"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="240dp"
-                android:layout_height="51dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/lonceng"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/bgr">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="367dp"
-                android:layout_height="65dp"
+                android:id="@+id/umum"
+                android:layout_width="375dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="96dp"
+                android:text="Pengumuman Hasil Seleksi"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/mrh"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/mrh"
+                android:layout_width="361dp"
+                android:layout_height="85dp"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/bg1"
-                tools:layout_editor_absoluteY="58dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.44"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
-                android:id="@+id/sunu"
-                android:layout_width="210dp"
-                android:layout_height="18dp"
+                android:id="@+id/peng"
+                android:layout_width="256dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="6dp"
                 android:text="Anda dinyatakan diterima di"
-                android:textColor="#069550"
-                android:textSize="11dp"
-                tools:layout_editor_absoluteX="28dp"
-                tools:layout_editor_absoluteY="63dp"
+                android:textColor="#16A75c"
+                app:layout_constraintBottom_toTopOf="@+id/sma"
+                app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/mrh"
+                app:layout_constraintTop_toBottomOf="@+id/umum"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/diterima"
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:text="Anda dinyatakan diterima"
+                android:textColor="#16A75C"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.564" />
+
+            <TextView
+                android:id="@+id/sma"
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="188dp"
+                android:layout_marginBottom="44dp"
+                android:text="SMA Negeri 1 Bojonggede"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginBottom="24dp"
+                android:text="Jalur Prestasi Kejujuran"
+                android:textColor="@color/abu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="101dp"
-                android:layout_height="19dp"
+                android:id="@+id/imageView2"
+                android:layout_width="72dp"
+                android:layout_height="26dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="281dp"
-                android:layout_marginTop="81dp"
-                android:src="@drawable/dtail"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/dtail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            </ImageView>
 
             <TextView
-                android:id="@+id/gem"
-                android:layout_width="210dp"
-                android:layout_height="18dp"
-                android:layout_marginStart="28dp"
-                android:layout_marginTop="84dp"
-                android:text="SMA Negeri 1 Bojonggede"
-                android:textColor="#424242"
-                android:textSize="11dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/hai"
-                android:layout_width="210dp"
-                android:layout_height="18dp"
-                android:layout_marginStart="28dp"
-                android:layout_marginTop="102dp"
-                android:text="Jalur Prestasi Kejuaraan"
-                android:textColor="#616161"
-                android:textSize="9dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                android:layout_width="86dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="288dp"
+                android:layout_marginBottom="136dp"
+                android:background="@drawable/terompet"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+            </TextView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/beu"
-            android:layout_width="381dp"
-            android:layout_height="501dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="492dp"
+            android:id="@+id/ketiga"
+            android:layout_width="383dp"
+            android:layout_height="495dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
             android:background="@drawable/bg"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toBottomOf="@+id/bre2">
 
             <TextView
-                android:id="@+id/der"
-                android:layout_width="210dp"
-                android:layout_height="18dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="16dp"
+                android:id="@+id/layan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
                 android:text="Layanan PPDB"
                 android:textColor="@color/black"
-                android:textSize="13dp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:layout_width="12dp"
-                android:layout_height="9dp"
+            <TextView
+                android:layout_width="29dp"
+                android:layout_height="40dp"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/lokasi"
-                tools:layout_editor_absoluteX="20dp"
-                tools:layout_editor_absoluteY="48dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="328dp"
+                android:background="@drawable/toga"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
 
             <TextView
-                android:id="@+id/dur"
-                android:layout_width="75dp"
-                android:layout_height="10dp"
-                android:layout_marginStart="34dp"
-                android:layout_marginTop="48dp"
+                android:id="@+id/bdg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="80dp"
                 android:text="Kota Bandung"
-                android:textColor="#16A75C"
-                android:textSize="8dp"
+                android:textColor="#006430"
+                android:textSize="13sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="403dp"
-                android:layout_height="81dp"
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="13dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="68dp"
-                android:src="@drawable/gb1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="84dp"
+                android:background="@drawable/lokasi"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="403dp"
-                android:layout_height="81dp"
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="377dp"
+                android:layout_height="78dp"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/gb2"
-                tools:layout_editor_absoluteY="149dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="403dp"
-                android:layout_height="81dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/gb1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bdg">
+            </TextView>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="377dp"
+                android:layout_height="78dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="139dp"
-                android:src="@drawable/gb3"
+                android:background="@drawable/gb2"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="403dp"
-                android:layout_height="81dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+            </TextView>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="377dp"
+                android:layout_height="78dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="220dp"
-                android:src="@drawable/gb4"
+                android:background="@drawable/gb3"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:layout_width="403dp"
-                android:layout_height="81dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView13">
+            </TextView>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="377dp"
+                android:layout_height="78dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="301dp"
-                android:src="@drawable/gb5"
+                android:background="@drawable/gb4"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+            </TextView>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="377dp"
+                android:layout_height="78dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/gb5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2">
+            </TextView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout"
-            android:layout_width="377dp"
-            android:layout_height="869dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="1008dp"
+            android:id="@+id/terakhir"
+            android:layout_width="385dp"
+            android:layout_height="830dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/bg"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <ImageView
-                android:layout_width="83dp"
-                android:layout_height="45dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="4dp"
-                android:src="@drawable/p1"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ketiga">
 
             <TextView
-                android:id="@+id/asd"
-                android:layout_width="205dp"
-                android:layout_height="28dp"
+                android:layout_width="99dp"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/terompet"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
+            <TextView
+                android:id="@+id/umumi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="8dp"
                 android:text="Berita Terkait PPDB"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintBottom_toTopOf="@+id/mum"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
-                android:id="@+id/tyu"
-                android:layout_width="344dp"
-                android:layout_height="40dp"
+                android:id="@+id/mum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="76dp"
-                android:text="Dapatkan semua informasi terbaru dan terpopuler terkait PPDB"
-                android:textColor="@color/black"
-                android:textSize="13dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginBottom="24dp"
+                android:text="Dapatkan semua informasi terbaru dan terpopuler terkait  PPDB"
+                android:textColor="@color/abu"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="parent" />
 
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="340dp"
-                android:layout_height="74dp"
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="354dp"
+                android:layout_height="49dp"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/berita"
-                tools:layout_editor_absoluteX="13dp"
-                tools:layout_editor_absoluteY="116dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="156dp"
+                android:background="@drawable/berita"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent">
+            </TextView>
 
-            <ImageView
-                android:id="@+id/ima"
-                android:layout_width="403dp"
-                android:layout_height="92dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="220dp"
-                android:src="@drawable/p2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView8"
+            <TextView
+                android:id="@+id/textView10"
                 android:layout_width="384dp"
+                android:layout_height="85dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="88dp"
+                android:background="@drawable/p2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView11">
+            </TextView>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="384dp"
+                android:layout_height="91dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/p3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10">
+            </TextView>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="379dp"
+                android:layout_height="93dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/p4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="385dp"
                 android:layout_height="90dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="324dp"
-                android:src="@drawable/p2"
+                android:background="@drawable/p5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="421dp"
-                android:layout_height="92dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView8">
+            </TextView>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="386dp"
+                android:layout_height="93dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="588dp"
-                android:src="@drawable/u1"
+                android:background="@drawable/p6"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/textView7">
+            </TextView>
 
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="403dp"
-                android:layout_height="92dp"
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="382dp"
+                android:layout_height="52dp"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/p4"
-                tools:layout_editor_absoluteX="12dp"
-                tools:layout_editor_absoluteY="1204dp"
+                android:background="@drawable/semua"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@+id/textView6"></TextView>
 
-            <ImageView
-                android:layout_width="403dp"
-                android:layout_height="92dp"
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="399dp"
+                android:layout_height="77dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="404dp"
-                android:src="@drawable/p5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginBottom="4dp"
+                android:background="#FFC0C0C0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
 
-            <ImageView
-                android:layout_width="403dp"
-                android:layout_height="92dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="496dp"
-                android:src="@drawable/p6"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            </TextView>
 
-            <ImageView
-                android:layout_width="377dp"
-                android:layout_height="55dp"
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="46dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="682dp"
-                android:src="@drawable/semua"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginEnd="120dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/kembali"
+                app:layout_constraintBottom_toBottomOf="@+id/textView15"
+                app:layout_constraintEnd_toEndOf="parent">
 
-            <ImageView
-                android:layout_width="389dp"
-                android:layout_height="56dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="737dp"
-                android:src="@drawable/kembali"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            </TextView>
         </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
 
-    </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
